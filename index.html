@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+</head>
+<body>
+	<script src="Vector.js"></script>
+	<script>
+		var a = new Vector(1);
+		var b = new Vector(2);
+		var c = new Vector(29.9);
+		var d = new Vector(20, 20);
+
+
+		var sum = a.subtract(b).mix(c).norm();
+
+		console.log(sum);
+	</script>
+</body>
+</html>
