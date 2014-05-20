@@ -3,19 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Test</title>
+	<!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.min.css"> -->
+	<style>
+	body { background: #222; overflow:hidden; }
+	canvas { width: 800px; height: 600px;}
+	</style>
 </head>
 <body>
+	<script src="phaser-095.min.js"></script>
 	<script src="Vector.js"></script>
-	<script>
-		var a = new Vector(1);
-		var b = new Vector(2);
-		var c = new Vector(29.9);
-		var d = new Vector(20, 20);
-
-
-		var sum = a.subtract(b).mix(c).norm();
-
-		console.log(sum);
-	</script>
+	<script src="Boid.js"></script>
+	<script src="main.js"></script>
 </body>
 </html>
